@@ -7,9 +7,12 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "build": "node_modules/.bin/tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
   },
   "dependencies": {
     "tailwindcss": "^4.2.0"
+  },
+  "engines": {
+    "node": "20"
   }
 }
