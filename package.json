@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css"
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
   },
   "devDependencies": {
     "tailwindcss": "^4.2.0"
