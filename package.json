@@ -9,7 +9,7 @@
   "scripts": {
     "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
   },
-  "devDependencies": {
+  "dependencies": {
     "tailwindcss": "^4.2.0"
   }
 }
