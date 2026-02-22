@@ -7,13 +7,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+    "build": "node ./node_modules/tailwindcss/lib/cli.js -i ./src/input.css -o ./dist/output.css --minify"
   },
   "devDependencies": {
     "tailwindcss": "^4.2.0"
-  },
-  "dependencies": {
-    "@tailwindcss/cli": "^4.2.0"
   }
 }
